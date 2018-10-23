@@ -1,0 +1,84 @@
+.ActiveWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(./../IMG/images/ActiveBck.png) no-repeat center center;
+  background-size: 100% 100%; }
+  .ActiveWrap .ActiveMain {
+    width: 100%;
+    position: relative; }
+    .ActiveWrap .ActiveMain .ActiveHeader {
+      width: 100%;
+      position: relative; }
+    .ActiveWrap .ActiveMain .ActiveUser {
+      width: 100%;
+      position: relative; }
+      .ActiveWrap .ActiveMain .ActiveUser .ActiveUserWrap {
+        width: 100%;
+        height: 10vh;
+        background: url(./../IMG/images/ActiveUser.png) no-repeat center center;
+        background-size: 100% 100%;
+        margin: auto; }
+    .ActiveWrap .ActiveMain .ActiveImg {
+      width: 100%;
+      position: relative; }
+      .ActiveWrap .ActiveMain .ActiveImg .ActiveImgWrap {
+        width: 100%;
+        height: 5vh;
+        background: url(./../IMG/images/ActiveImgTil.png) no-repeat center center;
+        background-size: 100% 100%;
+        margin: auto; }
+    .ActiveWrap .ActiveMain .ActivePro {
+      width: 100%;
+      position: relative; }
+      .ActiveWrap .ActiveMain .ActivePro .ActivePro-title {
+        width: 100%;
+        height: 5vh;
+        box-sizing: border-box;
+        padding: 0px 0px;
+        color: #fff;
+        text-align: center;
+        font-size: 2vh; }
+      .ActiveWrap .ActiveMain .ActivePro .ActivePro-main {
+        position: relative;
+        width: 63%;
+        height: 1.2vh;
+        margin: auto; }
+        .ActiveWrap .ActiveMain .ActivePro .ActivePro-main span {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          background: #393943; }
+        .ActiveWrap .ActiveMain .ActivePro .ActivePro-main .ActiveProOne {
+          position: absolute;
+          top: 50%;
+          left: 48%;
+          width: 12%;
+          height: 8vh;
+          background: transparent; }
+        .ActiveWrap .ActiveMain .ActivePro .ActivePro-main .ActiveProTwo {
+          position: absolute;
+          top: 50%;
+          right: -13px;
+          width: 12%;
+          height: 8vh;
+          background: transparent; }
+          .ActiveWrap .ActiveMain .ActivePro .ActivePro-main .ActiveProTwo .ActiveProCri {
+            background: transparent; }
+        .ActiveWrap .ActiveMain .ActivePro .ActivePro-main .ActiveProCri {
+          width: 2.3vh;
+          height: 2.3vh;
+          border-radius: 10px;
+          background: white; }
+        .ActiveWrap .ActiveMain .ActivePro .ActivePro-main .ActiveProOP {
+          font-size: 2vh;
+          color: #fff;
+          background: transparent; }
+    .ActiveWrap .ActiveMain .ActiveBtn {
+      width: 100%;
+      position: relative; }
+      .ActiveWrap .ActiveMain .ActiveBtn .ActiveBtnImg {
+        margin-top: 85px; }
+
+/*# sourceMappingURL=Active.css.map */
