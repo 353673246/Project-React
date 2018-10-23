@@ -1,0 +1,66 @@
+.SuccessWrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(./../IMG/images/SuccessBck.png) no-repeat center center;
+  background-size: 100% 100%; }
+  .SuccessWrap .SuccessMain {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .SuccessWrap .SuccessMain .SucHeader {
+      width: 100%;
+      position: relative; }
+      .SuccessWrap .SuccessMain .SucHeader .SucInfo {
+        position: absolute;
+        top: 78%;
+        left: 0%;
+        box-sizing: border-box;
+        padding: 0 20px;
+        width: 100%;
+        height: 6.9vh;
+        text-align: center; }
+        .SuccessWrap .SuccessMain .SucHeader .SucInfo .SucInfoTxt {
+          font-size: 2vh;
+          color: #fff; }
+    .SuccessWrap .SuccessMain .SucImgWrap {
+      width: 100%;
+      position: relative;
+      box-sizing: border-box;
+      padding: 22px 55px; }
+      .SuccessWrap .SuccessMain .SucImgWrap .SucImgMain {
+        position: relative;
+        width: 100%;
+        height: 56vh;
+        background: url(./../IMG/images/SucImgWrap.png) no-repeat center center;
+        background-size: 100% 100%; }
+        .SuccessWrap .SuccessMain .SucImgWrap .SucImgMain .SucImgTil {
+          position: absolute;
+          top: 23%;
+          left: 16%;
+          width: 70%;
+          height: 3.6vh;
+          background: url(./../IMG/images/SucImgTil.png) no-repeat center center;
+          background-size: 100%;
+          color: #fff;
+          font-size: 2vh;
+          text-align: center;
+          line-height: 3.6vh; }
+        .SuccessWrap .SuccessMain .SucImgWrap .SucImgMain .SucImg {
+          position: absolute;
+          top: 33%;
+          left: 10%;
+          width: 80%;
+          height: 23vh;
+          background: url(./../IMG/images/SuccImg.png) no-repeat center center;
+          background-size: 100% 100%; }
+        .SuccessWrap .SuccessMain .SucImgWrap .SucImgMain .SucBtn {
+          position: absolute;
+          top: 80%;
+          left: 16%;
+          width: 70%;
+          height: 6.2vh;
+          background: url(./../IMG/images/SucBtn.png) no-repeat center center;
+          background-size: 100% 100%; }
+
+/*# sourceMappingURL=Success.css.map */
