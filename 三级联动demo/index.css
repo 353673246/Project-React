@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	position: relative;
+	width: 100%;
+}
+.btn{
+	width: 50px;
+	height: 50px;
+	background:red;
+	margin:auto;
+}
+.gearArea{
+	/*background:rgba(0,0,0,.2);*/
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9900;
+	overflow: hidden;
+}
+.gearArea .gearAreaWrap{
+	position:absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 30vh;
+	background:#d5d8df;
+}
+.area_roll_mask{
+	height: 100%;
+	mask: linear-gradient(bottom , #debb47 50% , rgba(36,142,36,0));
+	padding: 0px;
+}
+.area_roll{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	background: transparent;
+	mask: linear-gradient(bottom , #debb47 50% , rgba(36,142,36,0));
+}
+.area_roll > div{
+	/*font-size:1.6em;*/
+	height: 10em;
+	position: relative;
+	box-flex:1;
+	flex: 1;
+}
+.area_roll > div > .gear{
+	width: 100%;
+	float: left;
+	position: absolute;
+	z-index: 9902;
+	margin-top: 4em;
+}
+.tooth{
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.area_grid{
+	position: relative;
+	top: 7em;
+	width: 100%;
+	height: 2em;
+	margin:0;
+	box-sizing: border-box;
+	border-top: 1px solid #abaeb5;
+	border-bottom: 1px solid #abaeb5;
+}
